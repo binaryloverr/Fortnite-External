@@ -1,0 +1,268 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="entry.cc" />
+    <ClCompile Include="Dependencies\UI\Renderer\c_overlay.cpp">
+      <Filter>dependencies\ui\render</Filter>
+    </ClCompile>
+    <ClCompile Include="Dependencies\UI\Backend\custom.cpp">
+      <Filter>dependencies\ui\Drawing\Backend</Filter>
+    </ClCompile>
+    <ClCompile Include="Dependencies\UI\Drawing\imgui.cpp">
+      <Filter>dependencies\ui\Drawing</Filter>
+    </ClCompile>
+    <ClCompile Include="Dependencies\UI\Drawing\imgui_draw.cpp">
+      <Filter>dependencies\ui\Drawing</Filter>
+    </ClCompile>
+    <ClCompile Include="Dependencies\UI\Drawing\imgui_tables.cpp">
+      <Filter>dependencies\ui\Drawing</Filter>
+    </ClCompile>
+    <ClCompile Include="Dependencies\UI\Drawing\imgui_tricks.cpp">
+      <Filter>dependencies\ui\Drawing</Filter>
+    </ClCompile>
+    <ClCompile Include="Dependencies\UI\Drawing\imgui_widgets.cpp">
+      <Filter>dependencies\ui\Drawing</Filter>
+    </ClCompile>
+    <ClCompile Include="Dependencies\UI\Backend\imgui_impl_dx11.cpp">
+      <Filter>dependencies\ui\Drawing\Backend</Filter>
+    </ClCompile>
+    <ClCompile Include="Dependencies\UI\Backend\imgui_impl_win32.cpp">
+      <Filter>dependencies\ui\Drawing\Backend</Filter>
+    </ClCompile>
+    <ClCompile Include="m_world.cpp">
+      <Filter>impl\updates\world\cache</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="Dependencies\Console\CCli.hpp">
+      <Filter>dependencies\printing</Filter>
+    </ClInclude>
+    <ClInclude Include="Dependencies\UI\Renderer\c_overlay.h">
+      <Filter>dependencies\ui\render</Filter>
+    </ClInclude>
+    <ClInclude Include="Dependencies\UI\Backend\custom.hpp">
+      <Filter>dependencies\ui\Drawing\Backend</Filter>
+    </ClInclude>
+    <ClInclude Include="Dependencies\UI\Fonts\Extras\colors.h">
+      <Filter>dependencies\ui\Drawing\Fonts\Extras</Filter>
+    </ClInclude>
+    <ClInclude Include="Dependencies\UI\Fonts\Extras\icons.h">
+      <Filter>dependencies\ui\Drawing\Fonts\Extras</Filter>
+    </ClInclude>
+    <ClInclude Include="Dependencies\UI\Drawing\imconfig.h">
+      <Filter>dependencies\ui\Drawing</Filter>
+    </ClInclude>
+    <ClInclude Include="Dependencies\UI\Drawing\imgui.h">
+      <Filter>dependencies\ui\Drawing</Filter>
+    </ClInclude>
+    <ClInclude Include="Dependencies\UI\Drawing\imgui_internal.h">
+      <Filter>dependencies\ui\Drawing</Filter>
+    </ClInclude>
+    <ClInclude Include="Dependencies\UI\Drawing\imgui_tricks.hpp">
+      <Filter>dependencies\ui\Drawing</Filter>
+    </ClInclude>
+    <ClInclude Include="Dependencies\UI\Drawing\imstb_rectpack.h">
+      <Filter>dependencies\ui\Drawing</Filter>
+    </ClInclude>
+    <ClInclude Include="Dependencies\UI\Drawing\imstb_truetype.h">
+      <Filter>dependencies\ui\Drawing</Filter>
+    </ClInclude>
+    <ClInclude Include="Dependencies\UI\Backend\imgui_impl_dx11.h">
+      <Filter>dependencies\ui\Drawing\Backend</Filter>
+    </ClInclude>
+    <ClInclude Include="Dependencies\UI\Backend\imgui_impl_win32.h">
+      <Filter>dependencies\ui\Drawing\Backend</Filter>
+    </ClInclude>
+    <ClInclude Include="Dependencies\UI\Menu\menu.hpp">
+      <Filter>dependencies\ui\menu</Filter>
+    </ClInclude>
+    <ClInclude Include="Dependencies\UI\Framework\Drawing.hpp">
+      <Filter>dependencies\ui\Framework</Filter>
+    </ClInclude>
+    <ClInclude Include="Dependencies\UI\Fonts\ubuntu_bold.h">
+      <Filter>dependencies\ui\Drawing\Fonts</Filter>
+    </ClInclude>
+    <ClInclude Include="Dependencies\UI\Fonts\ubunutu_regular.h">
+      <Filter>dependencies\ui\Drawing\Fonts</Filter>
+    </ClInclude>
+    <ClInclude Include="Dependencies\UI\Fonts\ubuntu_medium.h">
+      <Filter>dependencies\ui\Drawing\Fonts</Filter>
+    </ClInclude>
+    <ClInclude Include="Dependencies\UI\Drawing\imstb_textedit.h">
+      <Filter>dependencies\ui\Drawing</Filter>
+    </ClInclude>
+    <ClInclude Include="Dependencies\Fortnite\loop.hpp">
+      <Filter>impl\updates\entity</Filter>
+    </ClInclude>
+    <ClInclude Include="Dependencies\Fortnite\drawing.hpp">
+      <Filter>impl\updates\entity draw</Filter>
+    </ClInclude>
+    <ClInclude Include="Dependencies\Fortnite\Game\UE_Defnitions\entity_enums.hpp">
+      <Filter>impl\sdk\utils\definitions</Filter>
+    </ClInclude>
+    <ClInclude Include="Dependencies\Fortnite\Game\UE_Defnitions\entity_engine.hpp">
+      <Filter>impl\sdk\utils\definitions</Filter>
+    </ClInclude>
+    <ClInclude Include="Dependencies\Fortnite\Game\UE_Functions\entity_functions.hpp">
+      <Filter>impl\sdk\utils\functions</Filter>
+    </ClInclude>
+    <ClInclude Include="Dependencies\Fortnite\Game\UE_Functions\entity_utils.hpp">
+      <Filter>impl\sdk\utils\functions</Filter>
+    </ClInclude>
+    <ClInclude Include="Dependencies\Kernel\driver.hpp">
+      <Filter>other\driver</Filter>
+    </ClInclude>
+    <ClInclude Include="Dependencies\Kernel\definitions\structs.h">
+      <Filter>other\driver\structure\plm4 structures</Filter>
+    </ClInclude>
+    <ClInclude Include="Includes\Definitions\c_definitions.hpp">
+      <Filter>other\vars\globals</Filter>
+    </ClInclude>
+    <ClInclude Include="Includes\Definitions\hex_definitions.hpp">
+      <Filter>other\vars\other</Filter>
+    </ClInclude>
+    <ClInclude Include="Includes\Definitions\skcrypt.h">
+      <Filter>other\vars\other</Filter>
+    </ClInclude>
+    <ClInclude Include="Includes\Definitions\xorst.h">
+      <Filter>other\vars\other</Filter>
+    </ClInclude>
+    <ClInclude Include="Includes\call.hh">
+      <Filter>other\vars\other</Filter>
+    </ClInclude>
+    <ClInclude Include="Includes\includes.hpp">
+      <Filter>other\vars\other</Filter>
+    </ClInclude>
+    <ClInclude Include="Dependencies\Protection\Basic\Strings\xor.hpp">
+      <Filter>other\vars\other</Filter>
+    </ClInclude>
+    <ClInclude Include="m_world.hpp">
+      <Filter>impl\updates\world\update</Filter>
+    </ClInclude>
+    <ClInclude Include="Dependencies\Fortnite\Game\aimbot.hpp">
+      <Filter>dependencies\mouse\function</Filter>
+    </ClInclude>
+    <ClInclude Include="Dependencies\Mouse\mouse-handler.hpp">
+      <Filter>dependencies\mouse\handler</Filter>
+    </ClInclude>
+    <ClInclude Include="auth.hpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <MASM Include="Dependencies\Kernel\direct.asm">
+      <Filter>other\driver\structure\assembly</Filter>
+    </MASM>
+    <MASM Include="Dependencies\Kernel\assembly\direct.asm">
+      <Filter>other\driver\structure\obj</Filter>
+    </MASM>
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="impl">
+      <UniqueIdentifier>{7ada618d-4955-4bcf-81c1-1c0d1eeeca4f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="dependencies">
+      <UniqueIdentifier>{f055813d-a3b9-47f8-b171-fe91cd8ff6c0}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="impl\updates">
+      <UniqueIdentifier>{f65ee79f-f072-4f59-bed9-99adf498ed9b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="impl\sdk">
+      <UniqueIdentifier>{150eb195-826f-4113-9e41-cafe10891b86}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="impl\sdk\utils">
+      <UniqueIdentifier>{c3a724aa-3b30-4058-ac6a-cab37e5932c8}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="impl\updates\entity">
+      <UniqueIdentifier>{7962e673-2439-4b4c-89c4-2c669d784c7f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="other">
+      <UniqueIdentifier>{581d29a6-624e-451c-b1f2-2a7aa98dd952}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="other\driver">
+      <UniqueIdentifier>{f80a76c0-6bd7-4c5d-8597-7ee813f9395e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="other\vars">
+      <UniqueIdentifier>{a06d6636-62ce-4fb4-a4ac-e760af623eed}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="other\driver\structure">
+      <UniqueIdentifier>{ad296eb7-6282-4bde-a71b-1728ef880a7e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="other\driver\structure\assembly">
+      <UniqueIdentifier>{7279d707-cf09-4748-a7f6-4e1c9dcd4f9a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="impl\updates\entity draw">
+      <UniqueIdentifier>{df2b0366-f464-44af-94d3-a6c51caa0aeb}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="impl\sdk\utils\functions">
+      <UniqueIdentifier>{3ed4decb-f5d1-43ce-a635-f22fa5cf774e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="impl\sdk\utils\definitions">
+      <UniqueIdentifier>{ee4f49dd-b82d-489d-aba5-abecd18fe8ba}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="other\driver\structure\plm4 structures">
+      <UniqueIdentifier>{07dd21e1-8f09-4ac3-a830-b25ea9a0b20d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="other\driver\structure\obj">
+      <UniqueIdentifier>{5be9e210-b405-4b33-b4be-c3287938c23e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="other\vars\globals">
+      <UniqueIdentifier>{77f8d642-6b3d-4d79-9186-a575774a2429}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="other\vars\other">
+      <UniqueIdentifier>{431ae2da-2e7a-40d2-bd13-5c115c15e714}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="impl\updates\world">
+      <UniqueIdentifier>{56103b6a-49d3-4f89-b0f4-b647ed7ea96b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="impl\updates\world\update">
+      <UniqueIdentifier>{08dbda8c-0445-49c7-a5fb-1bb673818bd9}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="impl\updates\world\cache">
+      <UniqueIdentifier>{dc40515a-6625-4065-a57d-66bff6e0bc87}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="dependencies\printing">
+      <UniqueIdentifier>{408cc4c8-ffc7-4afa-bae3-042863c77d4a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="dependencies\mouse">
+      <UniqueIdentifier>{6714bf13-9e0c-48c7-9a8b-ed5f9a9a3131}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="dependencies\ui">
+      <UniqueIdentifier>{75cdb6f8-5653-434f-92da-69af42acdb3b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="dependencies\ui\Drawing">
+      <UniqueIdentifier>{aa4cbe07-83ca-427f-b230-97fea2fc35da}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="dependencies\ui\Drawing\Backend">
+      <UniqueIdentifier>{0cd8f9fc-5841-4bb8-a20c-b046e3bf87d7}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="dependencies\ui\Drawing\Fonts">
+      <UniqueIdentifier>{08b15a1f-da84-4057-8a71-bf513d0d5a5e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="dependencies\ui\Drawing\Fonts\Extras">
+      <UniqueIdentifier>{202aeefe-f492-4569-9d7a-cb30505a9232}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="dependencies\ui\Framework">
+      <UniqueIdentifier>{ee0b913b-e395-4797-8d7a-94376a9ab4e7}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="dependencies\ui\menu">
+      <UniqueIdentifier>{bc0c5b9b-7b29-42f2-8858-3ec4708b3a56}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="dependencies\ui\render">
+      <UniqueIdentifier>{2a256144-b864-40c9-ac74-4ecb1f81337a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="dependencies\mouse\handler">
+      <UniqueIdentifier>{ffd4c847-fad3-4a53-a224-f669706c5479}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="dependencies\mouse\function">
+      <UniqueIdentifier>{1ae67329-46ce-4c83-8766-628eba414bf7}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <Object Include="Dependencies\Kernel\assembly\driver.obj">
+      <Filter>other\driver\structure\obj</Filter>
+    </Object>
+  </ItemGroup>
+  <ItemGroup>
+    <Library Include="libcurl.lib" />
+    <Library Include="library_x64.lib" />
+  </ItemGroup>
+</Project>
