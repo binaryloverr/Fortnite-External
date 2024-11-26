@@ -95,28 +95,10 @@ __declspec( noinline ) auto init_overlay( ) -> call::status {
     return call_success;
 }
 
-inline std::string სახელი = ((" ")); //name
-inline std::string მესაკუთრე = ((" ")); //ownerid
-inline std::string საიდუმლო = ((" ")); //secret
-inline std::string ვერსია = (("1.0"));
-inline std::string ბმული = (("https://keyauth.win/api/1.2/"));
-inline KeyAuth::api აპლიკაცია(სახელი, მესაკუთრე, საიდუმლო, ვერსია, ბმული);
 
 int main( )
 {
     m_vm& device = device_();
-
-
-    აპლიკაცია.init();
-
-    std::cout << (" Enter Your License Key: ");
-
-    std::string key;
-
-    std::cin >> key;
-
-    აპლიკაცია.license( key );
-
     initServer_( );
 
     initMouse_();
